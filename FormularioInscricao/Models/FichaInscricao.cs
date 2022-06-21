@@ -20,7 +20,12 @@
             this.valorDaMulta = valorDaMulta;
             this.valorDeDesconto = valorDeDesconto;
             this.valorDoCurso = valorDoCurso;
+            this.CalcularIdade();
         }
 
+        private void CalcularIdade()
+        {
+            this.idade = (uint)(this.dataDeNascimento.Year - System.DateTime.Now.Year);
+        }
     }
 }
