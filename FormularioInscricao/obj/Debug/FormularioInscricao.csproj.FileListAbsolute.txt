@@ -1,0 +1,10 @@
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\bin\Debug\FormularioInscricao.exe.config
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\bin\Debug\FormularioInscricao.exe
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\bin\Debug\FormularioInscricao.pdb
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.csproj.AssemblyReference.cache
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.csproj.SuggestedBindingRedirects.cache
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.Properties.Resources.resources
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.csproj.GenerateResource.cache
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.csproj.CoreCompileInputs.cache
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.exe
+C:\Users\natanael.vieira\Desktop\DIH\4Semana\M2S4\FormularioInscricao\FormularioInscricao\obj\Debug\FormularioInscricao.pdb
