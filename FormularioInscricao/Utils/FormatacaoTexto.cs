@@ -1,6 +1,6 @@
 ﻿using FormularioInscricao.Models;
 
-namespace FormularioInscricao.utils
+namespace FormularioInscricao.Utils
 {
     public static class FormatacaoTexto
     {

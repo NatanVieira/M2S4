@@ -3,7 +3,7 @@
     public class FichaInscricao
     {
         public string nome;
-        public uint idade;
+        public int idade;
         public string curso;
         public string escolaridade;
         public System.DateTime dataDeNascimento;
@@ -24,8 +24,8 @@
         }
 
         private void CalcularIdade()
-        {
-            this.idade = (uint)(this.dataDeNascimento.Year - System.DateTime.Now.Year);
+        {   
+            this.idade = System.DateTime.Now.Year - this.dataDeNascimento.Year;
         }
     }
 }
