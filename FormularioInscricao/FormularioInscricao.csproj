@@ -53,6 +53,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CobrarCurso.cs" />
+    <Compile Include="Models\CursoSelecionado.cs" />
     <Compile Include="Models\FichaInscricao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

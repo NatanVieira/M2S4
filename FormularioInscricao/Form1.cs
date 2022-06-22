@@ -30,7 +30,15 @@ namespace FormularioInscricao
 
         private void txt_curso_Leave(object sender, EventArgs e)
         {
-            this.cursoSelecionado.AdicionaCurso(this.txt_curso.Text);
+            try
+            {
+                this.cursoSelecionado.AdicionaCurso(this.txt_curso.Text);
+                this.lbl_cursos_selecionados.Text = "";
+                this.lbl_cursos_selecionados.Text = this.cursoSelecionado.ToString();
+            }catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

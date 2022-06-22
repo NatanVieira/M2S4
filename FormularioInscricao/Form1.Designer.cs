@@ -50,6 +50,8 @@ namespace FormularioInscricao
             this.cb_escolaridade = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.lbl_resultado = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lbl_cursos_selecionados = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_nome
@@ -250,11 +252,30 @@ namespace FormularioInscricao
             this.lbl_resultado.TabIndex = 21;
             this.lbl_resultado.Text = "0";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(20, 277);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(109, 13);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Cursos Selecionados:";
+            // 
+            // lbl_cursos_selecionados
+            // 
+            this.lbl_cursos_selecionados.AutoSize = true;
+            this.lbl_cursos_selecionados.Location = new System.Drawing.Point(126, 277);
+            this.lbl_cursos_selecionados.Name = "lbl_cursos_selecionados";
+            this.lbl_cursos_selecionados.Size = new System.Drawing.Size(0, 13);
+            this.lbl_cursos_selecionados.TabIndex = 23;
+            // 
             // FormularioInscricao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 303);
+            this.ClientSize = new System.Drawing.Size(639, 543);
+            this.Controls.Add(this.lbl_cursos_selecionados);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.lbl_resultado);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cb_escolaridade);
@@ -280,6 +301,7 @@ namespace FormularioInscricao
             this.Text = "Formulário de Inscrição";
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.cursoSelecionado = new CursoSelecionado();
 
         }
 
@@ -306,7 +328,9 @@ namespace FormularioInscricao
         private System.Windows.Forms.ComboBox cb_escolaridade;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lbl_resultado;
-        private CursoSelecionado cursoSelecionado = new CursoSelecionado();
+        private CursoSelecionado cursoSelecionado;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbl_cursos_selecionados;
     }
 }
 
