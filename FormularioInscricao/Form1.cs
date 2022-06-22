@@ -20,9 +20,12 @@ namespace FormularioInscricao
             FichaInscricao fc = new FichaInscricao(this.txt_nome.Text, this.txt_curso.Text,
                                                    this.cb_escolaridade.SelectedItem.ToString(), this.dtp_data_nascimento.Value,
                                                    Double.Parse(this.txt_valorDoCurso.Text), double.Parse(this.txt_valorDesconto.Text),
-                                                   double.Parse(this.txt_valorDaMulta.Text)) ;
+                                                   double.Parse(this.txt_valorDaMulta.Text));
+            CobrarCurso cc = new CobrarCurso(fc.valorDoCurso, fc.valorDaMulta, fc.valorDeDesconto);
+            cc.CalcularResultado();
             this.lbl_idade.Text = fc.idade.ToString();
             this.lbl_descricao.Text = FormatacaoTexto.formataTexto(fc);
+            this.lbl_resultado.Text = cc.Resultado.ToString("c");
         }
     }
 }

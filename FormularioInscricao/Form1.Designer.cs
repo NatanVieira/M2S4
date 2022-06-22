@@ -47,39 +47,41 @@
             this.label8 = new System.Windows.Forms.Label();
             this.lbl_descricao = new System.Windows.Forms.Label();
             this.cb_escolaridade = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lbl_resultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_nome
             // 
-            this.txt_nome.Location = new System.Drawing.Point(159, 20);
+            this.txt_nome.Location = new System.Drawing.Point(256, 14);
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(195, 20);
             this.txt_nome.TabIndex = 0;
             // 
             // txt_curso
             // 
-            this.txt_curso.Location = new System.Drawing.Point(159, 46);
+            this.txt_curso.Location = new System.Drawing.Point(256, 40);
             this.txt_curso.Name = "txt_curso";
             this.txt_curso.Size = new System.Drawing.Size(195, 20);
             this.txt_curso.TabIndex = 1;
             // 
             // txt_valorDoCurso
             // 
-            this.txt_valorDoCurso.Location = new System.Drawing.Point(159, 98);
+            this.txt_valorDoCurso.Location = new System.Drawing.Point(256, 92);
             this.txt_valorDoCurso.Name = "txt_valorDoCurso";
             this.txt_valorDoCurso.Size = new System.Drawing.Size(195, 20);
             this.txt_valorDoCurso.TabIndex = 3;
             // 
             // txt_valorDesconto
             // 
-            this.txt_valorDesconto.Location = new System.Drawing.Point(159, 124);
+            this.txt_valorDesconto.Location = new System.Drawing.Point(256, 118);
             this.txt_valorDesconto.Name = "txt_valorDesconto";
             this.txt_valorDesconto.Size = new System.Drawing.Size(195, 20);
             this.txt_valorDesconto.TabIndex = 4;
             // 
             // txt_valorDaMulta
             // 
-            this.txt_valorDaMulta.Location = new System.Drawing.Point(159, 150);
+            this.txt_valorDaMulta.Location = new System.Drawing.Point(256, 144);
             this.txt_valorDaMulta.Name = "txt_valorDaMulta";
             this.txt_valorDaMulta.Size = new System.Drawing.Size(195, 20);
             this.txt_valorDaMulta.TabIndex = 5;
@@ -87,55 +89,55 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(118, 27);
+            this.label1.Location = new System.Drawing.Point(215, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 6;
+            this.label1.TabIndex = 8;
             this.label1.Text = "Nome";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 53);
+            this.label2.Location = new System.Drawing.Point(216, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 7;
+            this.label2.TabIndex = 9;
             this.label2.Text = "Curso";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(85, 79);
+            this.label3.Location = new System.Drawing.Point(182, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 8;
+            this.label3.TabIndex = 10;
             this.label3.Text = "Escolaridade";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(92, 105);
+            this.label4.Location = new System.Drawing.Point(189, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
-            this.label4.TabIndex = 9;
+            this.label4.TabIndex = 11;
             this.label4.Text = "Valor Curso";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(73, 127);
+            this.label5.Location = new System.Drawing.Point(170, 121);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 10;
+            this.label5.TabIndex = 12;
             this.label5.Text = "Valor Desconto";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(93, 153);
+            this.label6.Location = new System.Drawing.Point(190, 147);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 13);
-            this.label6.TabIndex = 11;
+            this.label6.TabIndex = 13;
             this.label6.Text = "Valor Multa";
             // 
             // dtp_data_nascimento
@@ -143,26 +145,26 @@
             this.dtp_data_nascimento.AllowDrop = true;
             this.dtp_data_nascimento.CustomFormat = "";
             this.dtp_data_nascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_data_nascimento.Location = new System.Drawing.Point(159, 176);
+            this.dtp_data_nascimento.Location = new System.Drawing.Point(256, 170);
             this.dtp_data_nascimento.Name = "dtp_data_nascimento";
             this.dtp_data_nascimento.Size = new System.Drawing.Size(83, 20);
-            this.dtp_data_nascimento.TabIndex = 12;
+            this.dtp_data_nascimento.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(73, 182);
+            this.label7.Location = new System.Drawing.Point(170, 176);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(80, 13);
-            this.label7.TabIndex = 13;
+            this.label7.TabIndex = 14;
             this.label7.Text = "Dt. Nascimento";
             // 
             // btn_salvar
             // 
-            this.btn_salvar.Location = new System.Drawing.Point(136, 211);
+            this.btn_salvar.Location = new System.Drawing.Point(233, 205);
             this.btn_salvar.Name = "btn_salvar";
             this.btn_salvar.Size = new System.Drawing.Size(167, 23);
-            this.btn_salvar.TabIndex = 14;
+            this.btn_salvar.TabIndex = 7;
             this.btn_salvar.Text = "Salvar";
             this.btn_salvar.UseVisualStyleBackColor = true;
             this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
@@ -170,7 +172,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(13, 255);
+            this.label18.Location = new System.Drawing.Point(19, 238);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(37, 13);
             this.label18.TabIndex = 15;
@@ -179,24 +181,25 @@
             // lbl_idade
             // 
             this.lbl_idade.AutoSize = true;
-            this.lbl_idade.Location = new System.Drawing.Point(56, 255);
+            this.lbl_idade.Location = new System.Drawing.Point(62, 238);
             this.lbl_idade.Name = "lbl_idade";
-            this.lbl_idade.Size = new System.Drawing.Size(0, 13);
+            this.lbl_idade.Size = new System.Drawing.Size(13, 13);
             this.lbl_idade.TabIndex = 16;
+            this.lbl_idade.Text = "0";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 280);
+            this.label8.Location = new System.Drawing.Point(19, 251);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.Size = new System.Drawing.Size(58, 13);
             this.label8.TabIndex = 17;
-            this.label8.Text = "Descrição";
+            this.label8.Text = "Descrição:";
             // 
             // lbl_descricao
             // 
             this.lbl_descricao.AutoSize = true;
-            this.lbl_descricao.Location = new System.Drawing.Point(73, 280);
+            this.lbl_descricao.Location = new System.Drawing.Point(81, 251);
             this.lbl_descricao.Name = "lbl_descricao";
             this.lbl_descricao.Size = new System.Drawing.Size(0, 13);
             this.lbl_descricao.TabIndex = 18;
@@ -222,16 +225,36 @@
             "Doutorado Completo",
             "PhD Cursando",
             "PhD Completo"});
-            this.cb_escolaridade.Location = new System.Drawing.Point(159, 72);
+            this.cb_escolaridade.Location = new System.Drawing.Point(256, 66);
             this.cb_escolaridade.Name = "cb_escolaridade";
             this.cb_escolaridade.Size = new System.Drawing.Size(195, 21);
-            this.cb_escolaridade.TabIndex = 19;
+            this.cb_escolaridade.TabIndex = 2;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(20, 264);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(58, 13);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Resultado:";
+            // 
+            // lbl_resultado
+            // 
+            this.lbl_resultado.AutoSize = true;
+            this.lbl_resultado.Location = new System.Drawing.Point(81, 264);
+            this.lbl_resultado.Name = "lbl_resultado";
+            this.lbl_resultado.Size = new System.Drawing.Size(13, 13);
+            this.lbl_resultado.TabIndex = 21;
+            this.lbl_resultado.Text = "0";
             // 
             // FormularioInscricao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 303);
+            this.ClientSize = new System.Drawing.Size(639, 303);
+            this.Controls.Add(this.lbl_resultado);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.cb_escolaridade);
             this.Controls.Add(this.lbl_descricao);
             this.Controls.Add(this.label8);
@@ -279,6 +302,8 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbl_descricao;
         private System.Windows.Forms.ComboBox cb_escolaridade;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbl_resultado;
     }
 }
 
