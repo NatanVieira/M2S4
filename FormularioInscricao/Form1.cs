@@ -27,5 +27,10 @@ namespace FormularioInscricao
             this.lbl_descricao.Text = FormatacaoTexto.formataTexto(fc);
             this.lbl_resultado.Text = cc.Resultado.ToString("c");
         }
+
+        private void txt_curso_Leave(object sender, EventArgs e)
+        {
+            this.cursoSelecionado.AdicionaCurso(this.txt_curso.Text);
+        }
     }
 }

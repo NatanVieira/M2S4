@@ -1,4 +1,5 @@
-﻿namespace FormularioInscricao
+﻿using FormularioInscricao.Models;
+namespace FormularioInscricao
 {
     partial class FormularioInscricao
     {
@@ -64,6 +65,7 @@
             this.txt_curso.Name = "txt_curso";
             this.txt_curso.Size = new System.Drawing.Size(195, 20);
             this.txt_curso.TabIndex = 1;
+            this.txt_curso.Leave += new System.EventHandler(this.txt_curso_Leave);
             // 
             // txt_valorDoCurso
             // 
@@ -304,6 +306,7 @@
         private System.Windows.Forms.ComboBox cb_escolaridade;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lbl_resultado;
+        private CursoSelecionado cursoSelecionado = new CursoSelecionado();
     }
 }
 
