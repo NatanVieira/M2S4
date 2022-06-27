@@ -24,6 +24,7 @@ namespace FormularioInscricao.Models
                 {
                     cursoString += $"{c},\n";
                 });
+                cursoString = cursoString.Substring(0,cursoString.Length - 2);
                 return cursoString;
             }
             return "";
